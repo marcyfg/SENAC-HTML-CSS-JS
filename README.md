@@ -4,7 +4,7 @@ Este repositório contém o conjunto de projetos e exercícios práticos desenvo
 O foco principal é a construção de interfaces modernas, acessíveis e bem estruturadas utilizando tecnologias fundamentais da web.
 
 <p align="center">
-  <[img src="https://giphy.com/gifs/ign-describe-plans-13HBDT4QSTpveU" width="200](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnlqNDhxMHQ4MHNrdWMzanNtem02MHJlMjFra2cyMDY3bXB0emZ4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13HBDT4QSTpveU/giphy.gif)" alt="gatinho digitando">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" alt="gatinho digitando">
 </p>
 
 <i>Codando meus projetos no Senac...</i>
