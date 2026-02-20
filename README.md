@@ -1,12 +1,13 @@
 # 🎓 Projetos Senac | Desenvolvimento Web
 
-Este repositório contém o conjunto de projetos e exercícios práticos desenvolvidos durante a minha formação no **Senac**. 
+Este repositório contém o conjunto de projetos e exercícios práticos desenvolvidos durante a minha formação no **Senac**.  
 O foco principal é a construção de interfaces modernas, acessíveis e bem estruturadas utilizando tecnologias fundamentais da web.
 
-<div align="center">
-  <img src="https://i.pinimg.com/originals/94/a0/0b/94a00b064c15383f9f3032d847844a42.gif" alt="Cat Coding" width="300">
-  <p><i>Codando meus projetos no Senac...</i></p>
-</div>
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExczhoMHpuYmZ1YTV5cXEzOHJ1a2EwcHNxbGVzZDRlbnYxOTM4OHNhaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pNgcSfwE8PAd2qBo4A/giphy.gif" alt="Codando no Senac" />
+</p>
+
+<i>Codando meus projetos no Senac...</i>
 
 ## 📂 Tecnologias em Foco
 * **HTML5:** Estruturação semântica.
