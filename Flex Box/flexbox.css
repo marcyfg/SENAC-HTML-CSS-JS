@@ -1,0 +1,76 @@
+body {
+    background-color: #fff0ff;
+    font-family: "Poppins", sans-serif;
+    padding: 30px;
+    line-height: 1.6;
+    color: #d35e96;
+  }
+
+  h1 {
+    font-family: "Parisienne", cursive;
+    font-size: 42px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: #6e2222;
+  }
+
+  #triste {
+    display: block;
+    margin: 25px auto 32px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    will-change: tranform;
+}
+
+img {
+    display: block;
+    margin: 25px auto 32px;
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tattoo {
+    display: grid;
+    background: #f7f7f7;
+    border: 1px solid e7e7e7;
+    padding: 20px;
+    border-radius: 5px;
+}
+ 
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px
+}
+
+  nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+ 
+nav ul li {
+    margin-right: 20px;
+}
+ 
+nav ul li a {
+    color: rgb(209, 160, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+nav ul li a:hover {
+    color: #6e2222;
+}
