@@ -1,0 +1,49 @@
+*  {
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #d5fada;
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {margin-bottom: 2rem;}
+
+.container {
+width: 80;
+margin: auto;
+border: 2px solid #447a4b;
+padding: 1rem;
+}
+
+.box {
+    background: #ffe1f6;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 2px solid #1d271e;
+}
+
+.porcentagem {
+    width: 50%;
+}
+
+.em {
+font-size: 2em;
+}
+
+.vw {
+    width: 30vw;
+    background-color: bisque;
+}
+
+.vh {
+    height: 20vh;
+    background-color: aquamarine;
+}
