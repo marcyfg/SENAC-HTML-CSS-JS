@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | CatCoffee</title>
+    <link rel="stylesheet" href="formulario.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+    <img id="logo" src="logo.png" alt="logo" loading="lazy"/>
+    <p id="sub"> Cat Coffee</p>
+    <p id="sub2"> Seu cat café local!☕✨</p>
+
+    <nav>
+        <ul>
+            <li><a href="#">Unidades</a></li>
+            <li><a href="#">Endereço</a></li>
+            <li><a href="#">Fale conosco</a></li>
+            <li><a href="#">Conta fidelidade</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+    <h1> Bem-vindo(a) de volta!! ( •̀ ω •́ )✧</h1>
+    <h2>Login✨</h2>
+
+    <div class="login">
+  <form>
+    <label for="user">⋆Usuário</label>
+    <input type="text" id="user">
+
+    <label for="pin">⋆Senha (PIN)</label>
+    <input type="text" id="pin" maxlength="10">
+
+    <button type="submit">Logar</button>
+  </form>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-masker/1.2.0/vanilla-masker.min.js"></script>
+
+ <script>
+    const pinInput = document.getElementById("pin");
+
+    pinInput.addEventListener("input", function() {
+        this.value = this.value.replace(/\D/g, "");
+    });
+</script>
+
+
+<a href="formulario.html" target="_blank" class="link">Cadastre-se</a>
+<a href="formulario.html" target="_blank" class="link">Esqueci a senha</a>
+
+</body>
+</html>

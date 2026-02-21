@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | CatCoffee</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+    <img id="logo" src="logo.png" alt="logo" loading="lazy"/>
+    <p id="sub"> Cat Coffee</p>
+    <p id="sub2"> Seu cat café local!☕✨</p>
+
+    <nav>
+        <ul>
+            <li><a href="#">Unidades</a></li>
+            <li><a href="#">Endereço</a></li>
+            <li><a href="#">Fale conosco</a></li>
+            <li><a href="#">Conta fidelidade</a></li>
+        </ul>
+    </nav>
+
+</div>
+<h2>Crie uma conta!✨</h2>
+
+  <form action="logado.html">
+    <label for="nome">⋆Nome</label>
+    <input type="text" id="nome">
+
+    <label for="cpf">⋆CPF</label>
+    <input type="text" id="cpf" maxlength="14">
+
+    <label for="telefone">⋆Telefone</label>
+    <input type="text" id="telefone" maxlength="15">
+
+    <label for="email">⋆Email</label>
+    <input type="text" id="nasc" maxlength="8">
+
+    <label for="pin">⋆Senha (PIN)</label>
+    <input type="text" id="pin" maxlength="10">
+
+    <button type="submit">Criar cadastro</button>
+  </form>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-masker/1.2.0/vanilla-masker.min.js"></script>
+
+ <script>
+    const cpfInput = document.getElementById("cpf");
+    const telInput = document.getElementById("telefone");
+    const pinInput = document.getElementById("pin");
+
+    VMasker(cpfInput).maskPattern("999.999.999-99");
+
+    const telMask = function() {
+        let value = telInput.value.replace(/\D/g, "");
+        let mask = value.length > 10 ? "(99) 99999-9999" : "(99) 9999-9999";
+        VMasker(telInput).unMask();
+        VMasker(telInput).maskPattern(mask);
+    };
+    
+    telInput.addEventListener("input", telMask);
+    telMask(); 
+
+    pinInput.addEventListener("input", function() {
+        this.value = this.value.replace(/\D/g, "");
+    });
+</script>
+  
+<a href="login.html" target="_blank" class="link">Login</a>
+<a href="login.html" target="_blank" class="link">Esqueci a senha</a>
+
+
+</body>
+</html>
