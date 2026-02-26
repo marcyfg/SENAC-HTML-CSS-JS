@@ -1,0 +1,167 @@
+*{
+font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background:#f8f3f1;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background:#FFDFEE;
+}
+
+.navbar-brand{
+    height: 50px; 
+    width: auto; 
+    transition: transform 0.3s ease;
+}
+
+.hero{
+    background: linear-gradient(rgba(255,255,255,.85), rgba(255,255,255,.85)),
+    url('https://images.unsplash.com/photo-1596462502278-27bfdc403348');
+    background-size:cover;
+    background-position:center;
+    font-size: 25;
+    padding:100px 0;
+    text-align:center;
+}
+
+.hero h1{
+    font-family: 'Poppins', sans-serif;
+    font-size:48px;
+}
+
+.hero span{
+    color:#E66BA1;
+}
+
+.buy {
+    background-color: #d66c8c; 
+    color: white;
+    padding: 15px 35px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 71, 126, 0.3); 
+    outline: none;
+  }
+  
+  .buy:hover {
+    background-color: #ff5e8e;
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 25px rgba(255, 71, 126, 0.5); 
+  }
+  
+  .buy:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(255, 71, 126, 0.3);
+  }
+
+.category-box{
+    background:#E66BA1;
+    color: #f8f3f1;
+    padding:20px;
+    border-radius:10px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.category-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(255, 254, 254, 0.1);
+}
+
+.product-card{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.1);
+}
+
+.product-card img{
+    height:180px;
+    object-fit:contain;
+}
+
+.price{
+    color:#E66BA1;
+    font-weight:bold;
+}
+
+footer{
+    background:#E66BA1;
+    color: #FFDFEE;
+    padding:20px;
+    text-align:center;
+}
+
+.cart-count{
+    background:#FFDFEE;
+    color:#E66BA1;
+    padding:3px 8px;
+    border-radius:50%;
+    font-size:12px;
+}
+
+#categorias {
+    padding: 60px 0;
+    background-color: #FFDFEE;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #E66BA1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.category-icon {
+    display: inline-block;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+#categorias h6 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.bi-droplet {
+    color: #4da3ff;
+}
+
+.bi-brush {
+    color: #e91e63;
+}
+
+.bi-stars {
+    color: #ffc107;
+}
+
+.bi-heart {
+    color: #ff5252;
+}
+
+.col-md-3:hover .category-icon {
+    transform: scale(1.2);
+}
+
+.col-md-3:hover h6 {
+    color: #792f2f; 
+}
