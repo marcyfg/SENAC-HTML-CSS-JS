@@ -1,5 +1,5 @@
 # 🎓⋆˙⟡ Projetos Senac | Desenvolvimento Web ── .✦
-𓆝 𓆟 𓆞 𓆝 𓆟 𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞 𓆝 𓆟 𓆝 𓆟 𓆞 𓆝 𓆟
+𓆝 𓆟 𓆞 𓆝 𓆟 𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞 𓆝 𓆟 𓆝 𓆟 𓆞 𓆝 𓆟 𓆝 𓆟 𓆞 𓆝 𓆟 𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞 𓆝 𓆟 𓆝 𓆟 𓆞 𓆝 𓆟
 
 Este repositório contém o conjunto de projetos e exercícios práticos desenvolvidos durante a minha formação no **Senac**.  
 O foco principal é a construção de interfaces modernas, acessíveis e bem estruturadas utilizando tecnologias fundamentais da web. 👩🏻‍💻💕
