@@ -10,13 +10,13 @@ O foco principal é a construção de interfaces modernas, acessíveis e bem est
 
 <i>Codando meus projetos no Senac...</i>
 
-## 📂 Foco do repertorio ── .✦
+## ⋆ 📂 Foco do repertorio ── .✦
 Repositório dedicado aos projetos desenvolvidos durante o curso no Senac. 
 Este espaço reúne aplicações práticas, exercícios e desafios focados em estruturação web com HTML5, estilização e boas práticas de desenvolvimento front-end.
 
 ── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──
 
-## 🖥️ Tecnologias usadas ── .✦
+## ⋆ 🖥️ Tecnologias usadas ── .✦
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20"/>
 
